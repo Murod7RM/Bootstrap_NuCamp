@@ -14,9 +14,9 @@ $(function() {
 });
 
 $(function() {
-            $("#loginButton").click(function(){
-              $('#loginModal').modal('toggle');
-            });
+  $("#loginButton").on("click", function(){
+    $('#loginModal').modal('show');
+  });
 });
 
 $(function() {
@@ -24,16 +24,3 @@ $(function() {
     $('#reserveModal').modal('show');
   });
 });
-
-
-// $(function() {
-//   $(".modal fade").modal( { interval: 2000 } );
-//   $("#carouselPause").click(function(){
-//       $(".carousel").carousel("pause");
-//   });
-//   $("#carouselPlay").click(function(){
-//       $(".carousel").carousel("cycle");
-//   });
-// });
-
-// $('#loginModal').modal(options)
