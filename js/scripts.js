@@ -20,8 +20,8 @@ $(function() {
 });
 
 $(function() {
-  $("#reserveButton").click(function(){
-    $('#loginModal').modal('toggle');
+  $("#reserveButton").on("click", function(){
+    $('#reserveModal').modal('show');
   });
 });
 
